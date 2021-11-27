@@ -2,3 +2,7 @@ html {
     font-size: 100%; 
     box-sizing: border-box; // include padding in the final width
 }
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
