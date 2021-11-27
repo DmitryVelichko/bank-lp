@@ -1,9 +1,15 @@
 html {
-    font-size: 100%; 
-    box-sizing: border-box; // include padding in the final width
+  font-size: 100%;
+  box-sizing: border-box; // include padding in the final width
 }
 
-*, *::before, *::after {
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}

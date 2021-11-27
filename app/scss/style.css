@@ -4,8 +4,15 @@ html {
           box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=style.css.map */
