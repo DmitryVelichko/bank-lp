@@ -29,4 +29,10 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.flex-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=style.css.map */
