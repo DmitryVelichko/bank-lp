@@ -19,4 +19,10 @@ body {
 // Flexbox
 .flex {
   display: flex;
+
+  &-jc-sb {
+    justify-content: space-between;
+  }
+
+ 
 }
