@@ -51,6 +51,8 @@ a, a:visited, a:hover {
 
 button, .button {
   padding: 1rem 1.875rem;
+  border-radius: 50px;
+  cursor: pointer;
 }
 
 .header nav {
