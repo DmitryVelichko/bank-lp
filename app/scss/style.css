@@ -49,6 +49,10 @@ a, a:visited, a:hover {
           align-items: center;
 }
 
+button, .button {
+  padding: 1rem 1.875rem;
+}
+
 .header nav {
   padding: 24px;
 }
