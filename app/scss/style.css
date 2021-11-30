@@ -21,7 +21,9 @@ body {
   font-weight: 300;
 }
 
-a, a:visited, a:hover {
+a,
+a:visited,
+a:hover {
   text-decoration: none;
 }
 
@@ -49,7 +51,8 @@ a, a:visited, a:hover {
           align-items: center;
 }
 
-button, .button {
+button,
+.button {
   padding: 1rem 1.875rem;
   border-radius: 50px;
   background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));

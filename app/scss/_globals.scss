@@ -19,7 +19,9 @@ body {
   font-weight: 300;
 }
 
-a, a:visited, a:hover {
+a,
+a:visited,
+a:hover {
   text-decoration: none;
 }
 
@@ -40,8 +42,9 @@ a, a:visited, a:hover {
   }
 }
 
-//Buttons 
-button, .button {
+//Buttons
+button,
+.button {
   padding: 1rem 1.875rem; // 16px/16; 30/16
   border-radius: 50px;
   background: linear-gradient(to right, $limeGreen, $brightCyan);
@@ -51,7 +54,7 @@ button, .button {
   font-weight: 400;
 }
 
-// Visibility 
+// Visibility
 
 .hide-for-mobile {
   @include breakpoint-down(medium) {
