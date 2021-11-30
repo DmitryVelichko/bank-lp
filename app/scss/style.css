@@ -60,6 +60,18 @@ button, .button {
   font-weight: 400;
 }
 
+@media (max-width: 63.9375em) {
+  .hide-for-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 64em) {
+  .hide-for-desktop {
+    display: none;
+  }
+}
+
 .header nav {
   padding: 24px;
 }
@@ -78,6 +90,10 @@ button, .button {
 .header__links a {
   font-size: 0.875rem;
   color: #9698a6;
+}
+
+.header__links a:not(:last-child) {
+  margin-right: 32px;
 }
 
 .header__cta {
