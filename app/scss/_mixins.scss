@@ -5,4 +5,7 @@
 }
 
 //sass-map. If bigger, use these styles: 640px /16 = 40em, 1400px(extra large screen)/16=87.5em
-$breakpoints-up: ('medium': '40em', 'large': '64em', 'xlarge': '87.5em')
+
+
+$breakpoints-up: ('medium': '40em', 'large': '64em', 'xlarge': '87.5em'); // medium - 40em and up
+$breakpoints-down: ('small': '40em', 'medium': '64em', 'large': '87.5em'); // medium - 40em and down
