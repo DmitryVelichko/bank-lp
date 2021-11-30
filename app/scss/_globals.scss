@@ -60,5 +60,7 @@ button, .button {
 }
 
 .hide-for-desktop {
-
+  @include breakpoint-up(large) {
+    display: none;
+  }
 }
