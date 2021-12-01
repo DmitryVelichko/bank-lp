@@ -116,6 +116,9 @@ button,
   display: block;
   height: 5px;
   background: lime;
+  left: 0;
+  right: 0;
+  bottom: -30px;
 }
 
 .header__links a:hover {
