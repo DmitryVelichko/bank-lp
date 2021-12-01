@@ -114,6 +114,8 @@ button,
 .header__links a::before {
   content: '';
   display: block;
+  height: 5px;
+  background: lime;
 }
 
 .header__links a:hover {
