@@ -112,6 +112,7 @@ button,
 }
 
 .header__links a::before {
+  position: absolute;
   content: '';
   display: block;
   height: 5px;
