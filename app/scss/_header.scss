@@ -1,6 +1,6 @@
 .header {
   nav {
-    padding: 17px 24px;
+    padding: 1.0625rem 1.5rem; // 17px и 24px /16
   }
 
   &__logo {
@@ -25,15 +25,21 @@
   }
 
   &__links {
-    border: 1px solid green;
+    border: 1px solid red;
 
     a {
+      position: relative;
       font-size: $font-sm; // 14px: 16 = rem
       color: $grayishBlue;
       transition: color 200ms ease-in-out;
 
       &:not(:last-child) {
         margin-right: 32px;
+      }
+
+      &::before {
+        content: '';
+        
       }
 
       &:hover {
