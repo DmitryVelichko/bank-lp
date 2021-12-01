@@ -76,7 +76,7 @@ button,
 }
 
 .header nav {
-  padding: 24px;
+  padding: 17px 24px;
 }
 
 .header__logo img {
@@ -93,6 +93,10 @@ button,
 
 .header__menu > span:not(:last-child) {
   margin-bottom: 3px;
+}
+
+.header__links {
+  border: 1px solid green;
 }
 
 .header__links a {

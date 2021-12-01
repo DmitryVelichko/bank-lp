@@ -1,6 +1,6 @@
 .header {
   nav {
-    padding: 24px;
+    padding: 17px 24px;
   }
 
   &__logo {
@@ -25,6 +25,8 @@
   }
 
   &__links {
+    border: 1px solid green;
+
     a {
       font-size: $font-sm; // 14px: 16 = rem
       color: $grayishBlue;
