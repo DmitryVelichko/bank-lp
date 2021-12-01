@@ -113,6 +113,7 @@ button,
 
 .header__links a::before {
   content: '';
+  display: block;
 }
 
 .header__links a:hover {

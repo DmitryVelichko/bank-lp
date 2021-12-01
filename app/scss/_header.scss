@@ -39,7 +39,8 @@
 
       &::before {
         content: '';
-        
+        display: block;
+
       }
 
       &:hover {
