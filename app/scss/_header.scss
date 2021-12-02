@@ -25,8 +25,12 @@
 
     &.open {
       > span:first-child {
+        transform: rotate(45deg);
+      }
+      > span:nth-child(2) {
       }
       > span:last-child {
+        transform: rotate(-45deg);
       }
     }
   }
