@@ -25,8 +25,6 @@
   }
 
   &__links {
-    border: 1px solid red;
-
     a {
       position: relative;
       font-size: $font-sm; // 14px: 16 = rem
@@ -47,7 +45,7 @@
         bottom: -30px;
         background: linear-gradient(to right, $limeGreen, $brightCyan);
         opacity: 0;
-        transition: opacity 300ms ease-in-out;
+        transition: opacity 200ms ease-in-out;
       }
 
       &:hover {
