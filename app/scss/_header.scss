@@ -29,7 +29,7 @@
       position: relative;
       font-size: $font-sm; // 14px: 16 = rem
       color: $grayishBlue;
-      transition: color 200ms ease-in-out;
+      transition: color 300ms ease-in-out;
 
       &:not(:last-child) {
         margin-right: 32px;
@@ -45,7 +45,7 @@
         bottom: -30px;
         background: linear-gradient(to right, $limeGreen, $brightCyan);
         opacity: 0;
-        transition: opacity 200ms ease-in-out;
+        transition: opacity 300ms ease-in-out;
       }
 
       &:hover {
@@ -60,5 +60,10 @@
   &__cta {
     font-size: $font-sm;
     color: $white;
+    transition: opacity 300ms ease-in-out;
+
+    &:hover {
+      opacity: 0;
+    }
   }
 }
