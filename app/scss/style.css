@@ -92,7 +92,7 @@ button,
 }
 
 .header__menu > span:not(:last-child) {
-  margin-bottom: 3px;
+  margin-bottom: 5px;
 }
 
 .header__links a {
@@ -138,6 +138,6 @@ button,
 }
 
 .header__cta:hover {
-  opacity: 0;
+  opacity: 0.75;
 }
 /*# sourceMappingURL=style.css.map */

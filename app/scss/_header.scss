@@ -19,7 +19,14 @@
       background-color: $darkBlue;
 
       &:not(:last-child) {
-        margin-bottom: 3px;
+        margin-bottom: 5px;
+      }
+    }
+
+    &.open {
+      > span:first-child {
+      }
+      > span:last-child {
       }
     }
   }
@@ -63,7 +70,7 @@
     transition: opacity 300ms ease-in-out;
 
     &:hover {
-      opacity: 0;
+      opacity: 0.75;
     }
   }
 }
