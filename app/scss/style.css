@@ -91,6 +91,8 @@ button,
   background-color: #2d314d;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  -webkit-transform-origin: center left;
+          transform-origin: center left;
 }
 
 .header__menu > span:not(:last-child) {
