@@ -1,14 +1,18 @@
 @-webkit-keyframes fade-in {
   from {
+    display: none;
   }
   to {
+    display: block;
   }
 }
 
 @keyframes fade-in {
   from {
+    display: none;
   }
   to {
+    display: block;
   }
 }
 

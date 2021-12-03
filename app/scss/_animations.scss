@@ -1,9 +1,11 @@
 @keyframes fade-in {
     from {
-
+        display: none;
     }
 
+
+
     to {
-        
+        display: block;
     }
 }
