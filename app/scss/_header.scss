@@ -1,4 +1,25 @@
 .header {
+  &.open {
+    > span:first-child {
+      transform: rotate(45deg);
+    }
+    > span:nth-child(2) {
+      opacity: 0;
+    }
+    > span:last-child {
+      transform: rotate(-45deg);
+    }
+  }
+
+  .overlay {
+    position: fixed;
+    top: 3.75rem; // высота navbar mobile
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient($darkBlue, transparent);
+  }
+  
   nav {
     padding: 1.0625rem 1.5rem; // 17px и 24px /16
   }
@@ -22,18 +43,6 @@
 
       &:not(:last-child) {
         margin-bottom: 5px;
-      }
-    }
-
-    &.open {
-      > span:first-child {
-        transform: rotate(45deg);
-      }
-      > span:nth-child(2) {
-        opacity: 0;
-      }
-      > span:last-child {
-        transform: rotate(-45deg);
       }
     }
   }
@@ -82,11 +91,4 @@
   }
 }
 
-.overlay {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: linear-gradient($darkBlue, transparent);
-}
+
