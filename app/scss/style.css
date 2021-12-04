@@ -200,8 +200,10 @@ button,
 }
 
 .header__menu a {
+  display: block;
   color: #2d314d;
   padding: 0.625rem;
+  text-align: center;
 }
 
 .header__links a {

@@ -56,8 +56,10 @@
     padding: 1.625rem; // 26px от верхнего края макета / 16
 
     a {
+      display: block;
       color: $darkBlue;
       padding: 0.625rem; // 10 px от текста линка сверху и снизу / 16
+      text-align: center;
     }
   }
 
