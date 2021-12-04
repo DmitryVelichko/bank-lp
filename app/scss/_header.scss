@@ -53,6 +53,8 @@
   }
 
   &__menu {
+    position: absolute;
+    width: calc(100% - 3rem);
     background: $white;
     margin: 0px 1.5rem;
     padding: 1.625rem; // 26px от верхнего края макета / 16
