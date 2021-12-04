@@ -51,6 +51,14 @@
     }
   }
 
+  &__menu {
+    background: $white;
+
+    a {
+      color: $darkBlue;
+    }
+  }
+
   &__links {
     a {
       position: relative;

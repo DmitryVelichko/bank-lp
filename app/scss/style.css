@@ -194,6 +194,14 @@ button,
   margin-bottom: 5px;
 }
 
+.header__menu {
+  background: white;
+}
+
+.header__menu a {
+  color: #2d314d;
+}
+
 .header__links a {
   position: relative;
   font-size: 0.875rem;
