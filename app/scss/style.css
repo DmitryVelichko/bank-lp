@@ -196,10 +196,12 @@ button,
 
 .header__menu {
   background: white;
+  padding: 1.625rem;
 }
 
 .header__menu a {
   color: #2d314d;
+  padding: 0.625rem;
 }
 
 .header__links a {
