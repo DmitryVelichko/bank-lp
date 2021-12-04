@@ -98,7 +98,7 @@ a:hover {
 }
 
 .container {
-  padding: 1.0625rem 1.5rem;
+  padding: 0px 1.5rem;
 }
 
 .flex {
@@ -172,6 +172,10 @@ button,
   left: 0;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#2d314d), to(transparent));
   background-image: linear-gradient(#2d314d, transparent);
+}
+
+.header nav {
+  padding: 1.0625rem 0;
 }
 
 .header__logo img {
