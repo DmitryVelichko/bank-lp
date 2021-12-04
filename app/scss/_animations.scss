@@ -1,29 +1,41 @@
 @keyframes fade-in {
   from {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  1% {
+    visibility: visible;
     opacity: 0;
   }
 
   to {
+    visibility: visible;
     opacity: 1;
   }
 }
 
 .fade-in {
-    animation: fade-in 300ms ease-in-out forwards; // forwards - анимация останется в последней позиции, а не вернется обратно
+  animation: fade-in 300ms ease-in-out forwards; // forwards - анимация останется в последней позиции, а не вернется обратно
 }
 
 @keyframes fade-out {
-    from {
-      opacity: 1;
-    }
-  
-    to {
-      opacity: 0;
-    }
+  from {
+    visibility: visible;
+    opacity: 1;
   }
 
-  .fade-out {
-    animation: fade-out 300ms ease-in-out forwards; // forwards - анимация останется в последней позиции, а не вернется обратно
+  99% {
+    visibility: visible;
+    opacity: 0;
+  }
+
+  to {
+    visibility: hidden;
+    opacity: 0;
+  }
 }
-  
-  
+
+.fade-out {
+  animation: fade-out 300ms ease-in-out forwards; // forwards - анимация останется в последней позиции, а не вернется обратно
+}
