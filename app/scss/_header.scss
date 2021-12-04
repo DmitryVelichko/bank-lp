@@ -54,7 +54,9 @@
 
   &__menu {
     background: $white;
+    margin: 0px 1.5rem;
     padding: 1.625rem; // 26px от верхнего края макета / 16
+    border-radius: 3px;
 
     a {
       display: block;

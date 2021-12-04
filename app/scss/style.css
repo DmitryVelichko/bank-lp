@@ -202,7 +202,9 @@ button,
 
 .header__menu {
   background: white;
+  margin: 0px 1.5rem;
   padding: 1.625rem;
+  border-radius: 3px;
 }
 
 .header__menu a {
