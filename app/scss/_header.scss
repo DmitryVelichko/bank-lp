@@ -55,8 +55,10 @@
   &__menu {
     position: absolute;
     width: calc(100% - 3rem);
+    left: 50%;
+    transform: translateX(-50%);
     background: $white;
-    margin: 0px 1.5rem;
+    margin-top: 1.5rem; // 24px from the top of the menu / 16
     padding: 1.625rem; // 26px от верхнего края макета / 16
     border-radius: 3px;
 
