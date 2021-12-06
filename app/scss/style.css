@@ -276,6 +276,7 @@ button,
 }
 
 .hero__image {
+  border: 1px solid magenta;
   position: relative;
   background-image: url("/images/bg-intro-mobile.svg");
   background-size: cover;
@@ -292,6 +293,6 @@ button,
   background-image: url("/images/image-mockups.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center bottom;
 }
 /*# sourceMappingURL=style.css.map */
