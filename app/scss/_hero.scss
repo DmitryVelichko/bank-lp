@@ -8,7 +8,10 @@
     min-height: 17.5rem; // 280px / 16 (base font size)
 
     &::before {
+      content: '';
       position: absolute;
+      height: 100%;
+      width: 100%;
       background-image: url('/images/image-mockups.png');
       background-size: cover;
       background-repeat: no-repeat;
