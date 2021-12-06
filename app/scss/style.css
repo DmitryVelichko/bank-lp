@@ -291,8 +291,13 @@ button,
   height: 100%;
   width: 100%;
   background-image: url("/images/image-mockups.png");
-  background-size: cover;
+  background-size: 93%;
   background-repeat: no-repeat;
   background-position: center bottom;
+}
+
+.hero__text h1 {
+  font-weight: 300;
+  color: #2d314d;
 }
 /*# sourceMappingURL=style.css.map */
