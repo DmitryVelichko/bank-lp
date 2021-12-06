@@ -23,6 +23,8 @@
   &__text {
       h1 {
           font-weight: 300;
+          line-height: 1;
+          font-size: 1.875rem; // 30px / 16
           color: $darkBlue;
       }
   }

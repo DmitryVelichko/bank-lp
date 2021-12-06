@@ -298,6 +298,8 @@ button,
 
 .hero__text h1 {
   font-weight: 300;
+  line-height: 1;
+  font-size: 1.875rem;
   color: #2d314d;
 }
 /*# sourceMappingURL=style.css.map */
