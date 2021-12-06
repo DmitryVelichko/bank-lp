@@ -21,11 +21,16 @@
   }
 
   &__text {
+    text-align: center;
+
       h1 {
           font-weight: 300;
-          line-height: 1;
-          font-size: 1.875rem; // 30px / 16
+          line-height: 1.15;
+          font-size: 2.31rem; // 37px / 16
           color: $darkBlue;
+      }
+      p {
+          line-height: 1.5;
       }
   }
 }
