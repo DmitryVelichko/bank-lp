@@ -309,9 +309,11 @@ button,
   line-height: 1.15;
   font-size: 2.31rem;
   color: #2d314d;
+  margin-bottom: 1.5rem;
 }
 
 .hero__text p {
   line-height: 1.5;
+  margin-bottom: 2.25rem;
 }
 /*# sourceMappingURL=style.css.map */
