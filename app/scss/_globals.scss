@@ -42,6 +42,9 @@ a:hover {
   padding-bottom: 2.25rem; // 36px / 16
   padding-left: 1.5rem; // 24px /16 Общий контейнер с отступами
   
+  &--pt {
+    padding-top: 2.25rem;
+  }
 }
 
 // Flexbox
