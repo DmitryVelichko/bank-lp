@@ -273,7 +273,6 @@ button,
 
 @media (min-width: 64em) {
   .hero {
-    min-height: 41rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -301,6 +300,7 @@ button,
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
+    height: 41rem;
   }
 }
 
