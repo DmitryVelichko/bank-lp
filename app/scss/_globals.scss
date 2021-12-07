@@ -37,13 +37,15 @@ a:hover {
 .container {
   max-width: 69.375rem;
   margin: 0 auto;
-  padding-top: 2.25rem; // 36px / 16
-  padding-right: 1.5rem; // 24px /16 Общий контейнер с отступами
   padding-bottom: 2.25rem; // 36px / 16
   padding-left: 1.5rem; // 24px /16 Общий контейнер с отступами
   
   &--pt {
-    padding-top: 2.25rem;
+    padding-top: 2.25rem;// 36px / 16
+  }
+
+  &--pr {
+    padding-right: 1.5rem; // 24px /16 Общий контейнер с отступами
   }
 }
 
