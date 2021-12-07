@@ -13,7 +13,7 @@
     min-height: 17.5rem; // 280px / 16 (base font size)
 
     @include breakpoint-up(large) {
-      flex: 1;
+      flex: 3;
       order: 2;
       height: 41rem; // 655px(height of hero section) / 16
       background-image: url('/images/bg-intro-desktop.svg');
@@ -36,7 +36,7 @@
     text-align: center;
 
     @include breakpoint-up(large) {
-      flex: 1;
+      flex: 2;
       order: 1;
     }
 
