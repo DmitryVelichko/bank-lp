@@ -283,7 +283,6 @@ button,
 }
 
 .hero__image {
-  border: 1px solid magenta;
   position: relative;
   background-image: url("/images/bg-intro-mobile.svg");
   background-size: cover;
@@ -301,6 +300,8 @@ button,
         -ms-flex-order: 2;
             order: 2;
     height: 41rem;
+    background-image: url("/images/bg-intro-desktop.svg");
+    background-position: left center;
   }
 }
 
