@@ -124,6 +124,10 @@ a:hover {
   padding-right: 1.5rem;
 }
 
+.container--bt {
+  padding-bottom: 2.25rem;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
