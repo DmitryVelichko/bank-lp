@@ -113,7 +113,6 @@ a:hover {
   max-width: 69.375rem;
   margin: 0 auto;
   padding-bottom: 2.25rem;
-  padding-left: 1.5rem;
 }
 
 .container--pt {
@@ -124,8 +123,12 @@ a:hover {
   padding-right: 1.5rem;
 }
 
-.container--bt {
+.container--pb {
   padding-bottom: 2.25rem;
+}
+
+.container--pl {
+  padding-left: 1.5rem;
 }
 
 .flex {
