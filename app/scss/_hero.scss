@@ -1,4 +1,8 @@
 .hero {
+  @include breakpoint-up(large) {
+    display: flex;
+  }
+
   &__image {
     border: 1px solid magenta;
     position: relative;
@@ -7,6 +11,10 @@
     background-repeat: no-repeat;
     background-position: center center;
     min-height: 17.5rem; // 280px / 16 (base font size)
+
+    @include breakpoint-up(large) {
+      flex: 1;
+    }
 
     &::before {
       content: '';
@@ -23,16 +31,16 @@
   &__text {
     text-align: center;
 
-      h1 {
-          font-weight: 300;
-          line-height: 1.15;
-          font-size: 2.31rem; // 37px / 16
-          color: $darkBlue;
-          margin-bottom: 1.5rem; // 24px / 16
-      }
-      p {
-          line-height: 1.5; 
-          margin-bottom: 2.25rem; // 36px / 16
-      }
+    h1 {
+      font-weight: 300;
+      line-height: 1.15;
+      font-size: 2.31rem; // 37px / 16
+      color: $darkBlue;
+      margin-bottom: 1.5rem; // 24px / 16
+    }
+    p {
+      line-height: 1.5;
+      margin-bottom: 2.25rem; // 36px / 16
+    }
   }
 }

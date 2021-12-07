@@ -271,6 +271,14 @@ button,
   opacity: 1;
 }
 
+@media (min-width: 64em) {
+  .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .hero__image {
   border: 1px solid magenta;
   position: relative;
@@ -279,6 +287,14 @@ button,
   background-repeat: no-repeat;
   background-position: center center;
   min-height: 17.5rem;
+}
+
+@media (min-width: 64em) {
+  .hero__image {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
 }
 
 .hero__image::before {
