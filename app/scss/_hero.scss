@@ -20,11 +20,33 @@
       flex: 3;
       order: 2;
       height: 41rem; // 655px(height of hero section) / 16
-      background-image: url('/images/bg-intro-desktop.svg');
-      background-position: left center;
+      background-image: none;
+      // background-image: url('/images/bg-intro-desktop.svg');
+      // background-position: left center;
+    }
+
+    &::before, &::after {
+      border: 1px solid magenta;
     }
 
     &::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-image: url('/images/bg-intro-desktop.svg');
+      background-size: 93%;
+      background-repeat: no-repeat;
+      background-position: center bottom;
+
+      @include breakpoint-up(large) {
+        width: 150%;
+        background-size: 122%;
+        background-position: 0% 83%;
+      }
+    }
+
+    &::after {
       content: '';
       position: absolute;
       height: 100%;
@@ -33,17 +55,16 @@
       background-size: 93%;
       background-repeat: no-repeat;
       background-position: center bottom;
-    }
 
-    &::after {
-      content: "";
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      background-image: url('/images/bg-intro-desktop.svg');
-      background-size: 93%;
-      background-repeat: no-repeat;
-      background-position: center bottom;
+      @include breakpoint-up(large) {
+        width: 120%;
+        height: 122%;
+        background-image: url('/images/image-mockups.png');
+        background-size: 94%;
+        background-repeat: no-repeat;
+        left: 22%;
+        background-position: center 150%;
+      }
     }
   }
 
