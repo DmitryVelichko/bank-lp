@@ -37,6 +37,11 @@ a:hover {
 .container {
   max-width: 69.375rem;
   margin: 0 auto;
+
+  &--pall {
+    max-width: 69.375rem;
+    margin: 0 auto;
+  }
   
   &--py {
     padding-top: 2.25rem;
