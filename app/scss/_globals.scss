@@ -19,7 +19,7 @@ body {
   font-weight: 300;
 
   @include breakpoint-up(large) {
-    font-size: $font-lg;
+    font-size: $font-med;
   }
 
   &.noscroll {
