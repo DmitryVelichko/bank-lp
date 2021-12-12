@@ -105,7 +105,9 @@ body.noscroll {
   overflow: hidden;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin-top: 0px;
 }
 
@@ -335,6 +337,7 @@ button,
 @media (min-width: 40em) {
   .hero__image {
     min-height: 25rem;
+    background-position: center 60%;
   }
 }
 
