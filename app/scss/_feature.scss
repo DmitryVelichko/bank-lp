@@ -1,6 +1,8 @@
 .feature {
     &__grid {
-
+        @include breakpoint-up(large) {
+            display: flex;
+        }
     }
 
     &__item {
@@ -16,6 +18,6 @@
     }
 
     &__description {
-        
+
     }
 }
