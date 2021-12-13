@@ -1,23 +1,22 @@
 .feature {
-    &__grid {
-        @include breakpoint-up(large) {
-            display: flex;
-        }
+  &__grid {
+    @include breakpoint-up(large) {
+      display: flex;
     }
+  }
 
-    &__item {
-
+  &__item {
+    @include breakpoint-up(large) {
+      flex: 1;
     }
+  }
 
-    &__icon {
+  &__icon {
+  }
 
-    }
+  &__title {
+  }
 
-    &__title {
-
-    }
-
-    &__description {
-
-    }
+  &__description {
+  }
 }
