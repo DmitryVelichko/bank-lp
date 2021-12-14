@@ -36,6 +36,7 @@ h3 {
 
 h2 {
   font-size: 1.875rem;
+  margin-bottom: 1.5625rem;
 
   @include breakpoint-up(large) {
     font-size: 2.25rem;
