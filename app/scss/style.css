@@ -439,6 +439,10 @@ button,
   }
 }
 
+.feature__item {
+  padding: 0.9375rem;
+}
+
 @media (min-width: 64em) {
   .feature__item {
     -webkit-box-flex: 1;
