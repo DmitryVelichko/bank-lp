@@ -31,14 +31,14 @@ body {
 h1,
 h2,
 h3 {
-  margin-top: 0px;
+  font-weight: 300;
+  line-height: 1.15;
+  color: $darkBlue;
+  margin-top: 0;
 }
 
 h1 {
-  font-weight: 300;
-  line-height: 1.15;
   font-size: 2.31rem; // 37px / 16
-  color: $darkBlue;
   margin-bottom: 1.5rem; // 24px / 16
 
   @include breakpoint-up(large) {
@@ -54,6 +54,11 @@ h2 {
     font-size: 2.25rem;
     margin-bottom: 2.25rem;
   }
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 2.25rem;
 }
 
 a,
