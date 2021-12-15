@@ -449,6 +449,10 @@ button,
   margin-bottom: 2.25rem;
 }
 
+.feature {
+  background-color: #f3f4f6;
+}
+
 .feature__intro {
   margin-bottom: 3.75rem;
 }
@@ -470,7 +474,6 @@ button,
 }
 
 .feature__item {
-  border: 1px solid magenta;
   padding: 0.9375rem;
 }
 
@@ -502,11 +505,21 @@ button,
 
 .feature__title {
   font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.15;
+  color: #2d314d;
+  margin-bottom: 1.5rem;
 }
 
 @media (min-width: 64em) {
   .feature__title {
     font-size: 1.5rem;
+    margin-bottom: 2.125rem;
   }
+}
+
+.feature__description {
+  font-size: 0.875rem;
+  line-height: 1.5;
 }
 /*# sourceMappingURL=style.css.map */
