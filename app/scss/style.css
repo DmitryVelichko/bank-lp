@@ -93,7 +93,7 @@ body {
   font-size: 0.875rem;
   color: #9698a6;
   font-weight: 300;
-  min-height: 200vh;
+  min-height: 300vh;
 }
 
 @media (min-width: 64em) {
@@ -498,5 +498,9 @@ button,
   .feature__icon {
     margin-bottom: 2.75rem;
   }
+}
+
+.feature__title {
+  font-size: 1.25rem;
 }
 /*# sourceMappingURL=style.css.map */
