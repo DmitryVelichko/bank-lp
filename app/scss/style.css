@@ -503,4 +503,10 @@ button,
 .feature__title {
   font-size: 1.25rem;
 }
+
+@media (min-width: 64em) {
+  .feature__title {
+    font-size: 1.5rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
