@@ -164,6 +164,7 @@ a:hover {
 @media (min-width: 64em) {
   .container--pall {
     padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 }
 
@@ -179,6 +180,12 @@ a:hover {
 
 .container--pt {
   padding-top: 4.375rem;
+}
+
+@media (min-width: 64em) {
+  .container--pt {
+    padding-top: 6rem;
+  }
 }
 
 .container--pr {
