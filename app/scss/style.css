@@ -473,6 +473,12 @@ button,
   text-align: center;
 }
 
+@media (min-width: 40em) {
+  .feature {
+    text-align: left;
+  }
+}
+
 .feature__intro {
   margin-bottom: 3.75rem;
 }
