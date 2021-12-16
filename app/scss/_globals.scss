@@ -97,6 +97,7 @@ a:hover {
 
   &--pt {
     padding-top: 4.375rem; // 36px / 16
+
     @include breakpoint-up(large) {
       padding-top: 6rem;
     
@@ -109,6 +110,10 @@ a:hover {
 
   &--pb {
     padding-bottom: 4.375rem; // 36px / 16
+
+    @include breakpoint-up(large) {
+      padding-bottom: 6rem;
+    } 
   }
 
   &--pl {
