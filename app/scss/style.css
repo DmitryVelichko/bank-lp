@@ -548,4 +548,15 @@ button,
   font-size: 0.875rem;
   line-height: 1.5;
 }
+
+.articles {
+  background-color: #fafafa;
+}
+
+.article__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
 /*# sourceMappingURL=style.css.map */
