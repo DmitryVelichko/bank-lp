@@ -21,7 +21,7 @@
   }
 
   &__item {
-   padding: 1.875rem 1.875rem 2.5rem 1.875rem;
+    border-radius: 0.3125rem;
   }
 
   &__image {
@@ -32,6 +32,12 @@
   }
 
   &__text {
+    background-color: $white;
+    padding: 1.875rem 1.875rem 2.5rem 1.875rem;
+
+    @include breakpoint-up(medium) {
+      padding: 1.875rem 1.5625rem;
+    }
   }
 
   &__author {
