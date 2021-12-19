@@ -553,10 +553,6 @@ button,
   background-color: #fafafa;
 }
 
-.article {
-  font-size: 0.8125rem;
-}
-
 .article__grid {
   display: -ms-grid;
   display: grid;
@@ -594,6 +590,7 @@ button,
 .article__text {
   background-color: white;
   padding: 1.875rem 1.875rem 2.5rem 1.875rem;
+  color: #9698a6;
 }
 
 @media (min-width: 40em) {
@@ -604,9 +601,16 @@ button,
 
 .article__author {
   font-size: 0.625rem;
+  margin-bottom: 1rem;
 }
 
 .article__title {
   font-size: 1.0625rem;
+  color: #2d314d;
+  margin-bottom: 1rem;
+}
+
+.article__description {
+  font-size: 0.8125rem;
 }
 /*# sourceMappingURL=style.css.map */
