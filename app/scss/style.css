@@ -573,4 +573,9 @@ button,
         grid-template-columns: repeat(4, 1fr);
   }
 }
+
+.article__item {
+  height: 12.5rem;
+  background-size: cover;
+}
 /*# sourceMappingURL=style.css.map */
