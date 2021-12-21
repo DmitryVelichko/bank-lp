@@ -637,11 +637,16 @@ button,
 }
 
 .footer__logo {
+  display: inline-block;
   margin-bottom: 1.875rem;
 }
 
 .footer__social {
   margin-bottom: 1.875rem;
+}
+
+.footer__social a {
+  display: inline-block;
 }
 
 .footer__links.col2 {
