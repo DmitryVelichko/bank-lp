@@ -645,8 +645,11 @@ button,
   margin-bottom: 1.875rem;
 }
 
-.footer__social a:not(:last-child) {
+.footer__social a {
   display: inline-block;
+}
+
+.footer__social a:not(:last-child) {
   margin-right: 1rem;
 }
 
