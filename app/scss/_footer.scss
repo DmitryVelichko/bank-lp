@@ -5,10 +5,10 @@
   text-align: center;
 
   @include breakpoint-up(large) {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr) 2fr;
-      grid-template-rows: repeat(2, 1fr);
-      grid-template-areas:
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 2fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
       'logo links1 links2 cta'
       'social links1 links2 cta';
   }
@@ -22,7 +22,7 @@
     margin-bottom: 1.875rem;
 
     @include breakpoint-up(large) {
-        grid-area: social;
+      grid-area: logo;
     }
   }
 
@@ -30,7 +30,7 @@
     margin-bottom: 1.875rem;
 
     @include breakpoint-up(large) {
-        grid-area: logo;
+      grid-area: social;
     }
 
     a {
@@ -48,18 +48,28 @@
     align-items: center;
 
     &.col1 {
+      @include breakpoint-up(large) {
+        grid-area: links1;
+      }
     }
 
     &.col2 {
       margin-bottom: 1.875rem;
+      @include breakpoint-up(large) {
+        grid-area: links2;
+      }
     }
 
     a {
-        line-height: 2.25;
+      line-height: 2.25;
     }
   }
 
   &__cta {
+    @include breakpoint-up(large) {
+        grid-area: cta;
+      }
+
     a.button {
       margin-bottom: 1.875rem;
     }
