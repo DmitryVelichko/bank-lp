@@ -6,6 +6,11 @@
 
   @include breakpoint-up(large) {
       display: grid;
+      grid-template-columns: repeat(3, 1fr) 2fr;
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-areas:
+      'logo links1 links2 cta'
+      'social links1 links2 cta';
   }
 
   a {

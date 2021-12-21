@@ -636,6 +636,11 @@ button,
   .footer {
     display: -ms-grid;
     display: grid;
+    -ms-grid-columns: (1fr)[3] 2fr;
+        grid-template-columns: repeat(3, 1fr) 2fr;
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 'logo links1 links2 cta' 'social links1 links2 cta';
   }
 }
 
