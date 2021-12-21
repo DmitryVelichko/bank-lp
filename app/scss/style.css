@@ -643,4 +643,12 @@ button,
 .footer__social {
   margin-bottom: 1.875rem;
 }
+
+.footer__links.col2 {
+  margin-bottom: 1.875rem;
+}
+
+.footer__cta a.button {
+  margin-bottom: 1.875rem;
+}
 /*# sourceMappingURL=style.css.map */
