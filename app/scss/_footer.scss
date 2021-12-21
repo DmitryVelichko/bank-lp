@@ -4,6 +4,10 @@
   padding: 2.5rem;
   text-align: center;
 
+  @include breakpoint-up(large) {
+      display: grid;
+  }
+
   a {
     color: $white;
   }

@@ -632,6 +632,13 @@ button,
   text-align: center;
 }
 
+@media (min-width: 64em) {
+  .footer {
+    display: -ms-grid;
+    display: grid;
+  }
+}
+
 .footer a {
   color: white;
 }
