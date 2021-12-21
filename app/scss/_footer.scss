@@ -20,10 +20,18 @@
   &__logo {
     display: inline-block;
     margin-bottom: 1.875rem;
+
+    @include breakpoint-up(large) {
+        grid-area: social;
+    }
   }
 
   &__social {
     margin-bottom: 1.875rem;
+
+    @include breakpoint-up(large) {
+        grid-area: logo;
+    }
 
     a {
       display: inline-block;

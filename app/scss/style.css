@@ -653,8 +653,20 @@ button,
   margin-bottom: 1.875rem;
 }
 
+@media (min-width: 64em) {
+  .footer__logo {
+    grid-area: social;
+  }
+}
+
 .footer__social {
   margin-bottom: 1.875rem;
+}
+
+@media (min-width: 64em) {
+  .footer__social {
+    grid-area: logo;
+  }
 }
 
 .footer__social a {
