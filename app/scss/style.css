@@ -645,8 +645,9 @@ button,
   margin-bottom: 1.875rem;
 }
 
-.footer__social a {
+.footer__social a:not(:last-child) {
   display: inline-block;
+  margin-right: 1rem;
 }
 
 .footer__links.col2 {
