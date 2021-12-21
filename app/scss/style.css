@@ -628,9 +628,19 @@ button,
 .footer {
   background-color: #2d314d;
   color: white;
+  padding: 2.5rem;
+  text-align: center;
 }
 
 .footer a {
   color: white;
+}
+
+.footer__logo {
+  margin-bottom: 1.875rem;
+}
+
+.footer__social {
+  margin-bottom: 1.875rem;
 }
 /*# sourceMappingURL=style.css.map */
