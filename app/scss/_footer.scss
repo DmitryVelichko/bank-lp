@@ -11,6 +11,7 @@
     grid-template-areas:
       'logo links1 links2 cta'
       'social links1 links2 cta';
+      justify-items: start;
   }
 
   a {
@@ -72,6 +73,7 @@
   &__cta {
     @include breakpoint-up(large) {
         grid-area: cta;
+        text-align: right;
       }
 
     a.button {
