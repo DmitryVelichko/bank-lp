@@ -99,6 +99,8 @@
   &__copyright {
     @include breakpoint-up(large) {
       grid-area: copyright;
+      align-self: end;
+      justify-self: end;
     }
   }
 }
