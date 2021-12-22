@@ -22,7 +22,7 @@
     display: inline-block;
     
 
-    @include breakpoint-up(medium) {
+    @include breakpoint-down(medium) {
       margin-bottom: 1.875rem;
     }
 
@@ -32,7 +32,10 @@
   }
 
   &__social {
-    margin-bottom: 1.875rem;
+    @include breakpoint-down(medium) {
+      margin-bottom: 1.875rem;
+    }
+
 
     @include breakpoint-up(large) {
       grid-area: social;
