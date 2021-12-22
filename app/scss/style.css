@@ -638,8 +638,8 @@ button,
     display: grid;
     -ms-grid-columns: (1fr)[3] 2fr;
         grid-template-columns: repeat(3, 1fr) 2fr;
-    -ms-grid-rows: (1fr)[2];
-        grid-template-rows: repeat(2, 1fr);
+    -ms-grid-rows: 1fr auto;
+        grid-template-rows: 1fr auto;
         grid-template-areas: 'logo links1 links2 cta' 'social links1 links2 copyright';
     justify-items: start;
   }
@@ -704,6 +704,9 @@ button,
 
 @media (min-width: 64em) {
   .footer__links {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: start;
@@ -728,8 +731,10 @@ button,
   }
 }
 
-.footer__links a {
-  line-height: 2.25;
+@media (max-width: 63.9375em) {
+  .footer__links a {
+    line-height: 2.25;
+  }
 }
 
 @media (min-width: 64em) {
