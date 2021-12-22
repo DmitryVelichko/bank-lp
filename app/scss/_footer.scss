@@ -88,7 +88,10 @@
       }
 
     a.button {
-      margin-bottom: 1.875rem;
+      @include breakpoint-down(medium) {
+        margin-bottom: 1.875rem;
+      }
+  
     }
   }
 
