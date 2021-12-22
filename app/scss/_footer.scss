@@ -10,7 +10,7 @@
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas:
       'logo links1 links2 cta'
-      'social links1 links2 cta';
+      'social links1 links2 copyright';
       justify-items: start;
   }
 
@@ -39,6 +39,7 @@
 
     @include breakpoint-up(large) {
       grid-area: social;
+      align-self: end;
     }
 
     a {
@@ -96,5 +97,8 @@
   }
 
   &__copyright {
+    @include breakpoint-up(large) {
+      grid-area: copyright;
+    }
   }
 }
