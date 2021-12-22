@@ -651,7 +651,12 @@ button,
 
 .footer__logo {
   display: inline-block;
-  margin-bottom: 1.875rem;
+}
+
+@media (min-width: 40em) {
+  .footer__logo {
+    margin-bottom: 1.875rem;
+  }
 }
 
 @media (min-width: 64em) {
@@ -723,6 +728,8 @@ button,
   .footer__cta {
     grid-area: cta;
     text-align: right;
+    -ms-grid-column-align: end;
+        justify-self: end;
   }
 }
 

@@ -20,7 +20,11 @@
 
   &__logo {
     display: inline-block;
-    margin-bottom: 1.875rem;
+    
+
+    @include breakpoint-up(medium) {
+      margin-bottom: 1.875rem;
+    }
 
     @include breakpoint-up(large) {
       grid-area: logo;
@@ -74,6 +78,7 @@
     @include breakpoint-up(large) {
         grid-area: cta;
         text-align: right;
+        justify-self: end;
       }
 
     a.button {
