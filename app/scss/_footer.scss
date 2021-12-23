@@ -46,6 +46,12 @@
     a {
       display: inline-block;
       height: 1.25rem;
+
+     
+
+      &:hover svg path {
+        fill: $limeGreen;
+      }
     }
 
     a:not(:last-child) {

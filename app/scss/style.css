@@ -686,6 +686,10 @@ button,
   height: 1.25rem;
 }
 
+.footer__social a:hover svg path {
+  fill: #31d35c;
+}
+
 .footer__social a:not(:last-child) {
   margin-right: 1rem;
 }
