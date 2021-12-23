@@ -686,6 +686,11 @@ button,
   height: 1.25rem;
 }
 
+.footer__social a svg path {
+  -webkit-transition: fill 150ms ease-in-out;
+  transition: fill 150ms ease-in-out;
+}
+
 .footer__social a:hover svg path {
   fill: #31d35c;
 }
@@ -739,6 +744,12 @@ button,
 
 .footer__links a {
   line-height: 2.25;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+
+.footer__links a:hover {
+  color: #31d35c;
 }
 
 @media (min-width: 64em) {
