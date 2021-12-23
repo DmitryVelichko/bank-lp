@@ -633,7 +633,7 @@ button,
 }
 
 @media (min-width: 64em) {
-  .footer {
+  .footer .container {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[3] 2fr;
