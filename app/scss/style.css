@@ -249,6 +249,11 @@ button,
   overflow: hidden;
 }
 
+button::before,
+.button::before {
+  content: '';
+}
+
 @media (max-width: 63.9375em) {
   .hide-for-mobile {
     display: none;

@@ -154,6 +154,10 @@ button,
   font-size: $font-sm;
   transition: opacity 300ms ease-in-out;
   overflow: hidden;
+
+  &::before {
+    content: '';
+  }
 }
 
 // Visibility
