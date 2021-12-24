@@ -233,6 +233,7 @@ a:hover {
 
 button,
 .button {
+  position: relative;
   display: inline-block;
   padding: 0.875rem 2.1875rem;
   border-radius: 50px;
@@ -242,6 +243,7 @@ button,
   cursor: pointer;
   color: white;
   font-weight: 400;
+  font-size: 0.875rem;
 }
 
 @media (max-width: 63.9375em) {
