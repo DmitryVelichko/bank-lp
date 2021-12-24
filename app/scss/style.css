@@ -252,6 +252,8 @@ button,
 button::before,
 .button::before {
   content: '';
+  position: absolute;
+  top: 0;
 }
 
 @media (max-width: 63.9375em) {
