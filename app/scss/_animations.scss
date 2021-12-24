@@ -17,7 +17,7 @@
   }
 }
 .fade-in {
-  animation: fade-in 200ms ease-in-out forwards; // forwards - анимация останется в последней позиции, а не вернется обратно
+  animation: fade-in 200ms ease-in-out forwards;
 }
 
 @keyframes fade-out {
