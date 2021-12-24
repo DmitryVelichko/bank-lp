@@ -3,13 +3,10 @@
 }
 
 .article {
-  &__content {
-  }
-
   &__grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1.8725rem;
+    gap: 1.875rem;
 
     @include breakpoint-up(medium) {
       grid-template-columns: repeat(2, 1fr);
@@ -21,9 +18,9 @@
   }
 
   &__item {
-    background-color: $white;
     border-radius: 0.3125rem;
     overflow: hidden;
+    background-color: $white;
     box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
     transition: all 150ms ease-in-out;
 
@@ -35,7 +32,7 @@
   &__image {
     height: 12.5rem;
     background-size: cover;
-    background-position: no-repeat;
+    background-repeat: no-repeat;
     background-position: center center;
   }
 
